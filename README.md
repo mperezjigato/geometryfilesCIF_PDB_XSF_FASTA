@@ -1,5 +1,5 @@
 # geometryfilesCIF_PDB_XSF_FASTA
-## All the geometries plotted within the weekly reports have been enclosed. CIF, PDB, FASTA, XSF formats follow/
+## All the atomic geometries plotted within the weekly reports have been enclosed in one of the formats CIF, PDB, FASTA, XSF
 ### The different systems are listed next.
 
 1. c-HfO2 - LAMMPS example system (within the distribution), located in the directory `examples/comb`
