@@ -1,0 +1,266 @@
+#\#CIF_1.0
+################################################################################
+#                                                                              #
+#                 This CIF is a part of the B-IncStrDB                         #
+#              (Bilbao Incommensurate Structures Database)                     #
+#                  http://www.cryst.ehu.eus/bincstrdb/                         #
+#                                                                              #
+#   Please note that the structure of the CIF file may differ from the one     #
+#   deposited, as it may have been modified to comply with the standard. The   #
+#   file has been validated against official dictionaries as well as local     #
+#   dictionaries including non-standard data names used by SHELXL (Sheldrick,  #
+#   G. M. (2008). Acta Cryst. A 64, 112-122) and JANA (Petricek, V., Dusek, M. #
+#   and Palatinus, L. (2014), Z. Kristallogr. 229, 345-352).                   #
+#                                                                              #
+#   For comments and/or criticisms, please e-mail to administrador-bcs@ehu.es  #
+#                                                                              #
+################################################################################
+data_An52
+
+loop_
+  _publ_author_name
+  'Yamamoto, A.'
+  'Nakazama, H.'
+  'Kitamura, M.'
+  'Morimoto, N.'
+
+_publ_section_title               
+;The modulated structure of intermediate plagioclase feldspar 
+Ca~x~Na~1-x~Al~1+x~Si~3-x~O~8~
+;
+
+_journal_name_full                'Acta Cryst. B'
+_journal_volume                   40
+_journal_year                     1984
+_journal_page_first               228
+_journal_page_last                237
+_journal_paper_doi                https://doi.org/10.1107/S0108768184002032
+
+
+_cell_length_a                    8.178(1)
+_cell_length_b                    12.865(1)
+_cell_length_c                    14.218(1)
+_cell_angle_alpha                 93.53(1)
+_cell_angle_beta                  116.21(1)
+_cell_angle_gamma                 89.92(1)
+_cell_volume                      1339.0(2)
+_exptl_crystal_density_diffrn     2.6998
+_exptl_absorpt_coefficient_mu     ?
+_cell_formula_units_Z             8
+_cell_measurement_temperature     ?
+_space_group_crystal_system       triclinic
+_space_group_ssg_name_WJJ         'P:P -1:-1'
+_space_group_ssg_name             X-1(\a\b\g)0
+loop_
+  _space_group_symop_ssg_id
+  _space_group_symop_ssg_operation_algebraic
+  1  x1,x2,x3,x4
+  2  -x1,-x2,-x3,-x4
+  3  1/2+x1,1/2+x2,1/2+x3,x4
+  4  1/2-x1,1/2-x2,1/2-x3,-x4
+  5  1/2+x1,1/2+x2,x3,1/2+x4
+  6  1/2-x1,1/2-x2,-x3,1/2-x4
+  7  x1,x2,1/2+x3,1/2+x4
+  8  -x1,-x2,1/2-x3,1/2-x4
+
+_space_group_name_H-M_alt         'P -1'
+loop_
+  _space_group_symop_id
+  _space_group_symop_operation_xyz
+  1  x,y,z
+  2  -x,-y,-z
+  3  1/2+x,1/2+y,1/2+z
+  4  1/2-x,1/2-y,1/2-z
+  5  1/2+x,1/2+y,z
+  6  1/2-x,1/2-y,-z
+  7  x,y,1/2+z
+  8  -x,-y,1/2-z
+
+_chemical_formula_sum             'Al0 Ca0.52 Na0.48 O8 Si4'
+_chemical_formula_weight          272.2
+_chemical_name_common             ?
+_chemical_name_mineral            'Labradorite (An52)'
+_exptl_crystal_type_of_structure  mod
+_cell_modulation_dimension        1
+_diffrn_ambient_temperature       ?
+_diffrn_ambient_pressure          ?
+_diffrn_radiation_type            ?
+_diffrn_radiation_wavelength      ?
+_diffrn_source                    X-rays
+_diffrn_reflns_satellite_order_max 1
+_exptl_special_details            ?
+_refine_special_details           'For Al/Si sites the scattering factor is that of Si.'
+
+loop_
+   _atom_type_symbol
+   Ca Na Si O
+
+loop_
+  _atom_site_description
+  _atom_site_label
+  _atom_site_type_symbol
+  _atom_site_site_symmetry_multiplicity
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_U_iso_or_equiv
+  _atom_site_adp_type
+  'Ca on Na(1) site'     Ca/Na(1)  Ca  8  0.32(18)  0.2678(9)  -0.0144(24)  0.0801(22)  ?  Uani
+  'Na on Na(1) site'     Na/Na(1)  Na  8  0.22(18)  0.2678(9)  -0.0144(24)  0.0801(22)  ?  Uani
+  'Ca on Na(2) site'     Ca/Na(2)  Ca  8  0.20(18)  0.2709(8)    0.0283(7)   0.0497(6)  ?  Uani
+  'Na on Na(2) site'     Na/Na(2)  Na  8  0.26(18)  0.2709(8)    0.0283(7)   0.0497(6)  ?  Uani
+  'Si on Al/Si(1) site'  Al/Si(1)  Si  8         1  0.0065(1)    0.1647(1)   0.1069(1)  ?  Uani
+  'Si on Al/Si(2) site'  Al/Si(2)  Si  8         1  0.0031(1)    0.8175(1)   0.1160(1)  ?  Uani
+  'Si on Al/Si(3) site'  Al/Si(3)  Si  8         1  0.6864(1)    0.1095(1)   0.1585(1)  ?  Uani
+  'Si on Al/Si(4) site'  Al/Si(4)  Si  8         1  0.6822(1)    0.8797(1)   0.1783(1)  ?  Uani
+  .                      O(1)      O   8         1  0.0030(4)    0.1299(2)   0.4897(1)  ?  Uani
+  .                      O(2)      O   8         1  0.5827(3)    0.9931(1)   0.1392(2)  ?  Uani
+  .                      O(3)      O   8         1  0.8127(3)    0.1062(2)   0.0950(2)  ?  Uani
+  .                      O(4)      O   8         1  0.8175(4)    0.8538(2)   0.1230(2)  ?  Uani
+  .                      O(5)      O   8         1  0.0142(3)    0.2925(2)   0.1390(2)  ?  Uani
+  .                      O(6)      O   8         1  0.0156(4)    0.6889(2)   0.1087(2)  ?  Uani
+  .                      O(7)      O   8         1  0.1992(3)    0.1079(2)   0.1920(2)  ?  Uani
+  .                      O(8)      O   8         1  0.1897(4)    0.8670(2)   0.2155(2)  ?  Uani
+
+_refine_ls_mod_func_description   'Displacive and occupational modulations:Fourier series. 1st-order harmonics.'
+_refine_ls_F_calc_details         'Gaussian integration'
+loop_
+  _cell_wave_vector_seq_id
+  _cell_wave_vector_x
+  _cell_wave_vector_y
+  _cell_wave_vector_z
+  1  0.061  0.044  -0.222
+
+loop_
+  _atom_site_Fourier_wave_vector_seq_id
+  _atom_site_Fourier_wave_vector_x
+  _atom_site_Fourier_wave_vector_y
+  _atom_site_Fourier_wave_vector_z
+  1  0.061  0.044  -0.222
+
+loop_
+  _atom_site_displace_Fourier_id
+  _atom_site_displace_Fourier_atom_site_label
+  _atom_site_displace_Fourier_axis
+  _atom_site_displace_Fourier_wave_vector_seq_id
+  Ca/Na(1)x1 Ca/Na(1)  x  1 
+  Ca/Na(1)y1 Ca/Na(1)  y  1 
+  Ca/Na(1)z1 Ca/Na(1)  z  1 
+  Ca/Na(2)x1 Ca/Na(2)  x  1 
+  Ca/Na(2)y1 Ca/Na(2)  y  1 
+  Ca/Na(2)z1 Ca/Na(2)  z  1 
+  Al/Si(1)x1 Al/Si(1)  x  1 
+  Al/Si(1)y1 Al/Si(1)  y  1 
+  Al/Si(1)z1 Al/Si(1)  z  1 
+  Al/Si(2)x1 Al/Si(2)  x  1 
+  Al/Si(2)y1 Al/Si(2)  y  1 
+  Al/Si(2)z1 Al/Si(2)  z  1 
+  Al/Si(3)x1 Al/Si(3)  x  1 
+  Al/Si(3)y1 Al/Si(3)  y  1 
+  Al/Si(3)z1 Al/Si(3)  z  1 
+  Al/Si(4)x1 Al/Si(4)  x  1 
+  Al/Si(4)y1 Al/Si(4)  y  1 
+  Al/Si(4)z1 Al/Si(4)  z  1 
+  O(1)x1     O(1)   x  1 
+  O(1)y1     O(1)   y  1 
+  O(1)z1     O(1)   z  1 
+  O(2)x1     O(2)   x  1 
+  O(2)y1     O(2)   y  1 
+  O(2)z1     O(2)   z  1 
+  O(3)x1     O(3)   x  1 
+  O(3)y1     O(3)   y  1 
+  O(3)z1     O(3)   z  1 
+  O(4)x1     O(4)   x  1 
+  O(4)y1     O(4)   y  1 
+  O(4)z1     O(4)   z  1 
+  O(5)x1     O(5)   x  1 
+  O(5)y1     O(5)   y  1 
+  O(5)z1     O(5)   z  1 
+  O(6)x1     O(6)   x  1 
+  O(6)y1     O(6)   y  1 
+  O(6)z1     O(6)   z  1 
+  O(7)x1     O(7)   x  1 
+  O(7)y1     O(7)   y  1 
+  O(7)z1     O(7)   z  1 
+  O(8)x1     O(8)   x  1 
+  O(8)y1     O(8)   y  1 
+  O(8)z1     O(8)   z  1 
+
+loop_
+  _atom_site_displace_Fourier_param_id
+  _atom_site_displace_Fourier_param_cos
+  _atom_site_displace_Fourier_param_sin
+  Ca/Na(1)x1  -0.0031(9)   0.0021(14)
+  Ca/Na(1)y1  0.0126(23)  -0.0250(35)
+  Ca/Na(1)z1 -0.0085(19)   0.0103(32)
+  Ca/Na(2)x1  -0.0040(9)  -0.0008(12)
+  Ca/Na(2)y1  -0.0004(9)   -0.0048(7)
+  Ca/Na(2)z1  -0.0021(6)   -0.0008(6)
+  Al/Si(1)x1  -0.0025(2)    0.0046(1)
+  Al/Si(1)y1   0.0023(1)   -0.0080(1)
+  Al/Si(1)z1   0.0031(1)   -0.0013(1)
+  Al/Si(2)x1   0.0024(2)   -0.0058(1)
+  Al/Si(2)y1   0.0005(1)   -0.0073(1)
+  Al/Si(2)z1  -0.0028(1)    0.0003(1)
+  Al/Si(3)x1  -0.0048(2)    0.0017(1)
+  Al/Si(3)y1  -0.0026(1)    0.0047(1)
+  Al/Si(3)z1   0.0007(1)   -0.0013(1)
+  Al/Si(4)x1   0.0019(2)   -0.0037(1)
+  Al/Si(4)y1  -0.0020(1)    0.0058(1)
+  Al/Si(4)z1  -0.0025(1)    0.0000(1)
+  O(1)x1       0.0073(6)   -0.0022(6)
+  O(1)y1      -0.0010(3)    0.0122(3)
+  O(1)z1       0.0009(3)    0.0018(2)
+  O(2)x1      -0.0030(5)   -0.0032(4)
+  O(2)y1       0.0013(3)    0.0068(2)
+  O(2)z1       0.0001(3)    0.0003(2)
+  O(3)x1      -0.0078(6)    0.0028(5)
+  O(3)y1      -0.0012(3)   -0.0050(2)
+  O(3)z1       0.0031(3)   -0.0003(3)
+  O(4)x1       0.0011(7)   -0.0087(5)
+  O(4)y1       0.0011(3)    0.0005(3)
+  O(4)z1      -0.0092(4)   -0.0039(3)
+  O(5)x1       0.0026(6)    0.0087(5)
+  O(5)y1       0.0070(3)   -0.0079(2)
+  O(5)z1       0.0046(3)   -0.0016(2)
+  O(6)x1       0.0002(6)   -0.0111(5)
+  O(6)y1       0.0044(3)   -0.0096(2)
+  O(6)z1      -0.0027(3)    0.0037(2)
+  O(7)x1       0.0083(6)    0.0032(5)
+  O(7)y1      -0.0009(3)   -0.0080(2)
+  O(7)z1       0.0018(3)   -0.0005(2)
+  O(8)x1      -0.0077(6)   -0.0016(5)
+  O(8)y1      -0.0018(3)   -0.0072(2)
+  O(8)z1      -0.0025(3)    0.0009(2)
+
+loop_
+  _atom_site_occ_Fourier_id
+  _atom_site_occ_Fourier_atom_site_label
+  _atom_site_occ_Fourier_wave_vector_seq_id
+  Ca/Na(1)o1 Ca/Na(1)  1 
+  Na/Na(1)o1 Na/Na(1)  1 
+  Ca/Na(2)o1 Ca/Na(2)  1 
+  Na/Na(2)o1 Na/Na(2)  1 
+
+loop_
+  _atom_site_occ_Fourier_param_id
+  _atom_site_occ_Fourier_param_cos
+  _atom_site_occ_Fourier_param_sin
+  Ca/Na(1)o1   0.00(24)   0.08(22)
+  Na/Na(1)o1  -0.02(24)  -0.02(22)
+  Ca/Na(2)o1   0.10(24)  -0.14(22)
+  Na/Na(2)o1  -0.08(24)   0.08(22)
+
+_reflns_number_gt                 4735
+_refine_ls_R_factor_gt            0.074
+_refine_ls_wR_factor_all          ?
+
+loop_
+  _reflns_class_code
+  _reflns_class_description
+  _reflns_class_number_gt
+  _reflns_class_R_factor_gt
+  Main 'Main reflections'     1633  0.065
+  Sat1 '1st-order satellites' 3102  0.094
+
