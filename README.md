@@ -12,6 +12,7 @@ The different systems are listed next:
      (R 3 m / R 3 -2 / ITA 160 / rhombohedral). FINDSYM then generates a new supercell, but a hexagonal one this time.
 1. ZFHX4 - "template" geometry from the AlphaFold-EBI protein database (both CIF and PDB). There is a separate FASTA file from a different source, the RCSCB PDB 
    database.
-1. Ag(19 10 6): CIF file generated with software developed by Dr Stephen J Jenkins
-1. Ag2PdO2
+1. Ag(19 10 6) : CIF file generated with software developed by Dr Stephen J Jenkins
+1. Ag2PdO2 : topological material atomic structure obtained from the materialscloud.org (topological materials) website.
+1. Plagioclase feldspar CaxNa1-xAl1+xSi3-xO8 - Modulated structure obtained from the cryst.ehu.es website.
 
