@@ -15,4 +15,5 @@ The different systems are listed next:
 1. Ag(19 10 6) : CIF file generated with software developed by Dr Stephen J Jenkins
 1. Ag2PdO2 : topological material atomic structure obtained from the materialscloud.org (topological materials) website.
 1. Plagioclase feldspar CaxNa1-xAl1+xSi3-xO8 - Modulated structure obtained from the cryst.ehu.es website.
+1. B19 AuCd - structure file obtained from the AFLOW encyclopedia of prototypes.
 
