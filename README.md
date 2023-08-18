@@ -14,6 +14,4 @@ The different systems are listed next:
    database.
 1. Ag(19 10 6): CIF file generated with software developed by Dr Stephen J Jenkins
 1. Ag2PdO2
-   - Donwload the CIF file from the materialscloud.org website (topologivcal materials database)
-   - Run it through the 
 
