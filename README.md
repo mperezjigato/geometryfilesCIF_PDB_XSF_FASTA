@@ -17,5 +17,5 @@ The different systems are listed next:
 1. Plagioclase feldspar CaxNa1-xAl1+xSi3-xO8 - Modulated structure obtained from the cryst.ehu.es website.
 1. B19 AuCd - structure file obtained from the AFLOW encyclopedia of prototypes.
 1. Model of a complex formed by two molecules solved in an ionic KCl water solution (from the pAPRika software distribution examples).
-1. Co(100)-(2 × 2)p4g-C surface clock reconstruction structure, formed after atomic C adsorption on FCC Co(100).
+1. Co(100)-(2 × 2)p4g-C surface clock reconstruction formed after atomic C adsorption on FCC Co(100).
 
