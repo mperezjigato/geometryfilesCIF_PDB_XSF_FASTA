@@ -21,6 +21,4 @@ The different systems are listed next:
 
 ![](AuCd.png)
 
-![](complexationinwater.png)
-
 ![](clock.png)
